@@ -46,7 +46,7 @@ nav a{
 
 .background-style{
     background-image: url('../assets/Hero-bg.png');
-    width: 1440;
+    width: 100%;
     height: 652px;
     position: relative;
     background-color:beige;
@@ -70,10 +70,9 @@ nav a{
 }
 .all-paragrapg{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
 }
 .header-bg a{
-    padding-top: px;
 }
 
 /* start why web development */
@@ -138,8 +137,35 @@ nav a{
     margin: 154px 400px 145px;
     border-radius: 10px;
     border: 2px solid black;
+    margin-bottom: 100px;
 }
 .web-division, .web-division-two, .web-division-three{
     width: 946px;
     height: 336px;
+}
+
+
+/* stary my inspiration */
+
+.inspiration-secondery{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: 15px 145px 40px;
+}
+.inspiration-section{
+    width: 1140px;
+    height: 775px;
+    margin: 154px 380px 145px;
+}
+.inspiration-person{
+    width: 1140px;
+    height: 614px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+}
+.inspiration-primary{
+    text-align: center;
+    padding: 5px;
 }
